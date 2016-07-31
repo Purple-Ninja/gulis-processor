@@ -76,7 +76,7 @@ class PostProcessor(Processor):
 class ListingProcessor(Processor):
 
     def __init__(self, soup):
-        super(ListProcessor, self).__init__(soup)
+        super(ListingProcessor, self).__init__(soup)
 
     def collect_raw_post_info_list(self):
         """
